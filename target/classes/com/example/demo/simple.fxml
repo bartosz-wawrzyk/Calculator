@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="490.0" prefWidth="567.0" style="-fx-background-color: #999999;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.SimpleController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="50.0" prefWidth="534.0" style="-fx-background-color: #FFFFFF;" text="Liczby" />
+      <Button layoutX="21.0" layoutY="95.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>
