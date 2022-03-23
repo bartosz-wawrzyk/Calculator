@@ -4,16 +4,17 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="732.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="579.0" prefWidth="882.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
    <children>
-      <Pane layoutX="14.0" layoutY="15.0" prefHeight="490.0" prefWidth="122.0" style="-fx-background-color: #454545;">
+      <Pane layoutX="14.0" layoutY="15.0" prefHeight="550.0" prefWidth="142.0" style="-fx-background-color: #454545;">
          <children>
-            <Button fx:id="buttonSimple" layoutX="39.0" layoutY="40.0" mnemonicParsing="false" onMouseClicked="#handleButtonSimple" text="Prosty" />
-            <Button layoutX="37.0" layoutY="128.0" mnemonicParsing="false" text="Button" />
-            <Button layoutX="37.0" layoutY="212.0" mnemonicParsing="false" text="Button" />
-            <Button layoutX="37.0" layoutY="317.0" mnemonicParsing="false" text="Button" />
+            <Button fx:id="buttonSimple" layoutX="17.0" layoutY="96.0" mnemonicParsing="false" onMouseClicked="#handleButtonSimple" prefHeight="58.0" prefWidth="104.0" text="Prosty" />
+            <Button layoutX="16.0" layoutY="176.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="104.0" text="Naukowy" />
+            <Button layoutX="17.0" layoutY="255.0" mnemonicParsing="false" onMouseClicked="#handleButtonSalary" prefHeight="58.0" prefWidth="104.0" text="Wynagrodzenia" />
+            <Button layoutX="17.0" layoutY="334.0" mnemonicParsing="false" onMouseClicked="#handleButtonConvert" prefHeight="58.0" prefWidth="104.0" text="Waluta" />
+            <Button layoutX="17.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#handleButtonHome" prefHeight="58.0" prefWidth="104.0" text="Home" />
          </children>
       </Pane>
-      <Pane fx:id="mainPane" layoutX="149.0" layoutY="14.0" prefHeight="490.0" prefWidth="567.0" style="-fx-background-color: #999999;" />
+      <Pane fx:id="mainPane" layoutX="170.0" layoutY="15.0" prefHeight="550.0" prefWidth="700.0" style="-fx-background-color: #999999;" />
    </children>
 </AnchorPane>

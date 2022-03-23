@@ -43,4 +43,49 @@ public class HelloController {
         this.mainPane.getChildren().clear();
         this.mainPane.getChildren().add(pane);
     }
+
+    public void handleButtonHome() {
+        try{
+            FXMLLoader loader = new FXMLLoader(this.getClass().getResource("home.fxml"));
+            Pane pane = null;
+            try {
+                pane = loader.load();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            setScreen(pane);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void handleButtonConvert() {
+        try{
+            FXMLLoader loader = new FXMLLoader(this.getClass().getResource("money.fxml"));
+            Pane pane = null;
+            try {
+                pane = loader.load();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            setScreen(pane);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void handleButtonSalary() {
+        try{
+            FXMLLoader loader = new FXMLLoader(this.getClass().getResource("salary.fxml"));
+            Pane pane = null;
+            try {
+                pane = loader.load();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            setScreen(pane);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
