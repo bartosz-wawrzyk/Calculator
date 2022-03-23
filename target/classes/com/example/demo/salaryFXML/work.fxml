@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" fx:controller="com.example.demo.WorkController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+
+      <ComboBox fx:id="ComboBoxWork" layoutX="14.0" layoutY="24.0" prefWidth="150.0" />
+      <TextField layoutX="193.0" layoutY="22.0" promptText="Twoje wynagrodzenie">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Text layoutX="380.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLN*">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="488.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rok podatkowy 2022">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <CheckBox layoutX="17.0" layoutY="91.0" mnemonicParsing="false" selected="true" text="praca w miejscu zamieszkania">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="17.0" layoutY="126.0" mnemonicParsing="false" selected="true" text="stałe wynagrdzenie  w każdym miesiącu">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="17.0" layoutY="161.0" mnemonicParsing="false" selected="true" text="ukończony 26 rok życia">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="17.0" layoutY="200.0" mnemonicParsing="false" selected="true" text="miesięczna ulga dla klasy średniej">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="380.0" layoutY="91.0" mnemonicParsing="false" selected="true" text="składka na FGŚP">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="381.0" layoutY="126.0" mnemonicParsing="false" text="uczestnictwo w PPK">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox layoutX="381.0" layoutY="145.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="215.0" selected="true" text="stopa procentowa skłądki na ubezpieczenie wypadkowe**" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <Button layoutX="307.0" layoutY="245.0" mnemonicParsing="false" text="Oblicz">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextField layoutX="596.0" layoutY="157.0" prefHeight="25.0" prefWidth="38.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Text layoutX="634.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\%">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="21.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="wartość netto wynagradzania - kwota do wypłaty po potrąceniu obciążeń (składki na ubezpieczenie społeczne, podatek dochodowy od osób fizycznych, składki na ubezpieczenie zdrowotne), potocznie wynagrodzenie &quot;na rękę&quot;" wrappingWidth="286.115234375" />
+      <Text layoutX="21.0" layoutY="428.0" strokeType="OUTSIDE" strokeWidth="0.0" text="wartość brutto wynagrodzenia - to wynagrodzenie zawierające podatek i składki ZUS" wrappingWidth="286.115234375" />
+      <Text layoutX="371.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="koszty pracodawcy - całkowity koszt wynagrodzenia poniesiony przez pracodawcę" wrappingWidth="286.115234375" />
+      <Text layoutX="371.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="koszty uzyskania przychodu - wydatek poniesiony w celu uzyskania przychodu lub utrzymania źródła przychodów" wrappingWidth="269.9384765625" />
+      <Text layoutX="371.0" layoutY="428.0" strokeType="OUTSIDE" strokeWidth="0.0" text="koszty pracodawcy - całkowity koszt wynagrodzenia poniesiony przez pracodawcę" wrappingWidth="269.9384765625" />
+
+</Pane>
