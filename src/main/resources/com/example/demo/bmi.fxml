@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="550.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.BmiController">
+   <children>
+      <RadioButton fx:id="womanID" layoutX="225.0" layoutY="153.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="106.0" text="KOBIETA">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="toggleSex" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="manID" layoutX="389.0" layoutY="158.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="106.0" text="MĘŻCZYZNA" toggleGroup="$toggleSex">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <Text layoutX="403.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WAGA (KG)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="234.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WZROST (CM)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="libraID" layoutX="389.0" layoutY="249.0" prefHeight="64.0" prefWidth="106.0" />
+      <TextField fx:id="growthID" layoutX="225.0" layoutY="249.0" prefHeight="64.0" prefWidth="106.0" />
+      <Button layoutX="331.0" layoutY="327.0" mnemonicParsing="false" onMouseClicked="#handleButtonCalculate" text="Oblicz">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="176.0" layoutY="382.0" text="Twój wskaźnik BMI wynosi:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="resultID" layoutX="365.0" layoutY="382.0" prefHeight="20.0" prefWidth="147.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="278.0" layoutY="411.0" text="i oznacza:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="valueID" layoutX="370.0" layoutY="411.0" prefHeight="20.0" prefWidth="136.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Line endX="348.0" endY="62.0" layoutX="221.0" layoutY="311.0" startX="-72.0" startY="62.0" />
+      <ImageView fitHeight="80.0" fitWidth="106.0" layoutX="402.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/BmiIconMan.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="106.0" layoutX="238.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/BmiIconWoman.png" />
+         </image>
+      </ImageView>
+      
+   </children>
+</AnchorPane>

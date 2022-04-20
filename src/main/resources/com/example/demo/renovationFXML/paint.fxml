@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="670.0" style="-fx-background-color: #808080;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.PaintController">
+   <children>
+      <Text fill="WHITE" layoutX="110.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ściany">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="58.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Długość[m]">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="147.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wysokość[m]">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="8.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ściana 1" />
+      <Text fill="WHITE" layoutX="8.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ściana 2" />
+      <Text fill="WHITE" layoutX="8.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ściana 3" />
+      <Text fill="WHITE" layoutX="8.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ściana 4" />
+      <TextField fx:id="wallWidth1" layoutX="67.0" layoutY="71.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="wallHeight1" layoutX="161.0" layoutY="71.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="wallWidth2" layoutX="67.0" layoutY="101.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="wallHeight2" layoutX="161.0" layoutY="101.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="wallWidth3" layoutX="67.0" layoutY="131.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="wallHeight3" layoutX="161.0" layoutY="131.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="wallHeight4" layoutX="161.0" layoutY="161.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="wallWidth4" layoutX="67.0" layoutY="161.0" prefHeight="25.0" prefWidth="53.0" />
+      <Text fill="WHITE" layoutX="328.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Drzwi">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="553.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Okna">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="268.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Szerokość[m]">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="361.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wysokość[m]">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="237.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Drzwi 1" />
+      <Text fill="WHITE" layoutX="237.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Drzwi 2" />
+      <TextField fx:id="doorWidth1" layoutX="283.0" layoutY="72.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="doorHeight1" layoutX="376.0" layoutY="72.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="doorWidth2" layoutX="283.0" layoutY="102.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="doorHeight2" layoutX="376.0" layoutY="102.0" prefHeight="25.0" prefWidth="53.0" />
+      <Text fill="WHITE" layoutX="584.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wysokość[m]">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="486.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Szerokość[m]">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="windowHeight1" layoutX="599.0" layoutY="71.0" prefHeight="25.0" prefWidth="53.0" />
+      <Text fill="WHITE" layoutX="456.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Okno 1" />
+      <TextField fx:id="windowHeight2" layoutX="599.0" layoutY="100.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="windowWidth1" layoutX="501.0" layoutY="71.0" prefHeight="25.0" prefWidth="53.0" />
+      <TextField fx:id="windowWidth2" layoutX="501.0" layoutY="100.0" prefHeight="25.0" prefWidth="53.0" />
+      <Text fill="WHITE" layoutX="456.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Okno 2" />
+      <Text fill="WHITE" layoutX="14.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jaką powierzchnię pokrywa farba z jednego pojemnika [m2]">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="434.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pokrycie:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="covering" layoutX="508.0" layoutY="201.0" prefHeight="25.0" prefWidth="53.0" />
+      <Text fill="WHITE" layoutX="119.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cena jednego pojemnika farby [zł]">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="444.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cena:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="price" layoutX="508.0" layoutY="242.0" prefHeight="25.0" prefWidth="53.0" />
+      <Button layoutX="308.0" layoutY="275.0" mnemonicParsing="false" onMouseClicked="#handleButtonCalculate" text="Oblicz">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Line endX="538.0" layoutX="118.0" layoutY="319.0" startX="-100.0" />
+      <Label fx:id="wall" layoutX="21.0" layoutY="330.0" prefWidth="116.0" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="wall2" layoutX="29.0" layoutY="374.0" prefHeight="17.0" prefWidth="100.0" textFill="WHITE" />
+      <Label fx:id="wall3" layoutX="29.0" layoutY="391.0" prefWidth="100.0" textFill="WHITE" />
+      <Label fx:id="wall4" layoutX="29.0" layoutY="408.0" prefWidth="100.0" textFill="WHITE" />
+      <Label fx:id="wall1" layoutX="29.0" layoutY="357.0" prefHeight="17.0" prefWidth="100.0" textFill="WHITE" />
+      <Label fx:id="unpainted" layoutX="188.0" layoutY="330.0" prefWidth="300.0" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalarea" layoutX="188.0" layoutY="356.0" prefWidth="420.0" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="painted" layoutX="188.0" layoutY="382.0" prefWidth="430.0" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="painting" layoutX="188.0" layoutY="408.0" prefWidth="470.0" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="cost" layoutX="188.0" layoutY="434.0" prefWidth="300.0" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+
+</Pane>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.FinancesController">
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#handleButtonComponent" prefHeight="50.0" prefWidth="200.0" text="Oszczędności" />
+      <Button layoutX="250.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#handleButtonVat" prefHeight="50.0" prefWidth="200.0" text="VAT" />
+      <Button layoutX="486.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#handleButtonLoan" prefHeight="50.0" prefWidth="200.0" text="Koszt kredytu" />
+      <Pane fx:id="paneSalary" layoutX="15.0" layoutY="76.0" prefHeight="470.0" prefWidth="670.0" />
+
+</AnchorPane>

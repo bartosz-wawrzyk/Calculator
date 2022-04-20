@@ -6,16 +6,16 @@ import javafx.scene.layout.Pane;
 
 import java.io.IOException;
 
-public class SalaryController {
+public class FinancesController {
 
     @FXML
     private Pane paneSalary;
 
 
 
-    public void handleButtonWork() {
+    public void handleButtonComponent() {
         try{
-            FXMLLoader loader = new FXMLLoader(this.getClass().getResource("salaryFXML/work.fxml"));
+            FXMLLoader loader = new FXMLLoader(this.getClass().getResource("financesFXML/component.fxml"));
             Pane pane = new Pane();
             try {
                 pane = loader.load();
@@ -28,9 +28,9 @@ public class SalaryController {
         }
     }
 
-    public void handleButtonOrder() {
+    public void handleButtonVat() {
         try{
-            FXMLLoader loader = new FXMLLoader(this.getClass().getResource("salaryFXML/order.fxml"));
+            FXMLLoader loader = new FXMLLoader(this.getClass().getResource("financesFXML/vat.fxml"));
             Pane pane = new Pane();
             try {
                 pane = loader.load();
@@ -43,9 +43,9 @@ public class SalaryController {
         }
     }
 
-    public void handleButtonJob() {
+    public void handleButtonLoan() {
         try{
-            FXMLLoader loader = new FXMLLoader(this.getClass().getResource("salaryFXML/job.fxml"));
+            FXMLLoader loader = new FXMLLoader(this.getClass().getResource("financesFXML/loan.fxml"));
             Pane pane = new Pane();
             try {
                 pane = loader.load();

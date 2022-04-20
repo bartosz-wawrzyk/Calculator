@@ -1,51 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane prefHeight="550.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="550.0" prefWidth="700.0" style="-fx-background-color: #808080;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Text layoutX="14.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prosty">
+      <Text fill="WHITE" layoutX="78.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kalkulator umożliwia przeprowadzanie prostych i zaawansowanych obliczeń matematycznych" textAlignment="CENTER" wrappingWidth="544.0966796875">
          <font>
-            <Font size="24.0" />
+            <Font size="18.0" />
          </font>
       </Text>
-      <Text layoutX="14.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prosty kalkulator prezentujący podstawowe operacje arytmetyczne">
+      <Text fill="WHITE" layoutX="161.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PROSTY KALKULATOR" textAlignment="CENTER" wrappingWidth="378.228515625">
          <font>
-            <Font size="14.0" />
+            <Font size="36.0" />
          </font>
       </Text>
-      <Text layoutX="14.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wynagrodzenie">
+      <Text fill="WHITE" layoutX="255.0" layoutY="518.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bartosz Wawrzyk - 2022">
          <font>
-            <Font size="24.0" />
+            <Font size="18.0" />
          </font>
       </Text>
-      <Text layoutX="14.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kalkulator wynagrodzeń to narzędzie, które pomoże Ci odpowiedzieć na pytanie, ile wyniesie twoje wynagrodzenie netto lub brutto. Oprócz przeliczenia brutto-netto oraz netto-brutto, kalkulator wyliczy zaliczki na PIT, składki, ZUS oraz koszty pracodawcy związane z zatrudnieniem." textAlignment="JUSTIFY" wrappingWidth="637.0322265625">
-         <font>
-            <Font size="14.0" />
-         </font>
-      </Text>
-      <Text layoutX="14.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aplikacja posiada następujące funkcje:">
-         <font>
-            <Font size="14.0" />
-         </font>
-      </Text>
-      <Text layoutX="14.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- kalkulator wynagrodzeń brutto/netto" />
-      <Text layoutX="14.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- kalkulator wynagrodzeń netto/brutto" />
-      <Text layoutX="14.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- kalkulator kosztów pracodawcy" />
-      <Text layoutX="14.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- kalkulator wynagrodzeń dla umowy zlecenie" />
-      <Text layoutX="14.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- kalkulator wynagrodzeń dla umowy o dzieło" />
-      <Text layoutX="14.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Waluta">
-         <font>
-            <Font size="24.0" />
-         </font>
-      </Text>
-      <Text layoutX="14.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kalkulator walutowy - przelicznik walut według kursów średnich publikowanych przez Narodowy Bank Polski (kalkulator walutowy NBP). Kalkulator przelicza waluty według kursów średnich publikowanych przez Narodowy Bank Polski." wrappingWidth="492.419921875">
-         <font>
-            <Font size="14.0" />
-         </font>
-      </Text>
+      <ImageView fitHeight="284.0" fitWidth="353.0" layoutX="208.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/home.jpg" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

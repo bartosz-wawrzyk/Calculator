@@ -8,13 +8,14 @@
    <children>
       <Pane layoutX="14.0" layoutY="15.0" prefHeight="550.0" prefWidth="142.0" style="-fx-background-color: #454545;">
          <children>
-            <Button fx:id="buttonSimple" layoutX="17.0" layoutY="96.0" mnemonicParsing="false" onMouseClicked="#handleButtonSimple" prefHeight="58.0" prefWidth="104.0" text="Prosty" />
-            <Button layoutX="16.0" layoutY="176.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="104.0" text="Naukowy" />
-            <Button layoutX="17.0" layoutY="255.0" mnemonicParsing="false" onMouseClicked="#handleButtonSalary" prefHeight="58.0" prefWidth="104.0" text="Wynagrodzenia" />
-            <Button layoutX="17.0" layoutY="334.0" mnemonicParsing="false" onMouseClicked="#handleButtonConvert" prefHeight="58.0" prefWidth="104.0" text="Waluta" />
-            <Button layoutX="17.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#handleButtonHome" prefHeight="58.0" prefWidth="104.0" text="Home" />
+            <Button fx:id="buttonSimple" layoutX="17.0" layoutY="110.0" mnemonicParsing="false" onMouseClicked="#handleButtonSimple" prefHeight="58.0" prefWidth="104.0" text="Prosty" />
+            <Button layoutX="16.0" layoutY="200.0" mnemonicParsing="false" onMouseClicked="#handleButtonBMI" prefHeight="58.0" prefWidth="104.0" text="BMI" />
+            <Button layoutX="17.0" layoutY="290.0" mnemonicParsing="false" onMouseClicked="#handleButtonSalary" prefHeight="58.0" prefWidth="104.0" text="Finanse" />
+            <Button layoutX="17.0" layoutY="380.0" mnemonicParsing="false" onMouseClicked="#handleButtonConvert" prefHeight="58.0" prefWidth="104.0" text="Waluta" />
+            <Button layoutX="17.0" layoutY="20.0" mnemonicParsing="false" onMouseClicked="#handleButtonHome" prefHeight="58.0" prefWidth="104.0" text="Home" />
+            <Button layoutX="17.0" layoutY="470.0" mnemonicParsing="false" onMouseClicked="#handleButtonRenovation" prefHeight="58.0" prefWidth="104.0" text="Remont" />
          </children>
       </Pane>
-      <Pane fx:id="mainPane" layoutX="170.0" layoutY="15.0" prefHeight="550.0" prefWidth="700.0" style="-fx-background-color: #999999;" />
+      <Pane fx:id="mainPane" layoutX="170.0" layoutY="15.0" prefHeight="550.0" prefWidth="700.0" style="-fx-background-color: #808080;" />
    </children>
 </AnchorPane>

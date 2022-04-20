@@ -76,7 +76,37 @@ public class HelloController {
 
     public void handleButtonSalary() {
         try{
-            FXMLLoader loader = new FXMLLoader(this.getClass().getResource("salary.fxml"));
+            FXMLLoader loader = new FXMLLoader(this.getClass().getResource("finances.fxml"));
+            Pane pane = null;
+            try {
+                pane = loader.load();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            setScreen(pane);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void handleButtonBMI() {
+        try{
+            FXMLLoader loader = new FXMLLoader(this.getClass().getResource("bmi.fxml"));
+            Pane pane = null;
+            try {
+                pane = loader.load();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            setScreen(pane);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void handleButtonRenovation() {
+        try{
+            FXMLLoader loader = new FXMLLoader(this.getClass().getResource("renovations.fxml"));
             Pane pane = null;
             try {
                 pane = loader.load();
